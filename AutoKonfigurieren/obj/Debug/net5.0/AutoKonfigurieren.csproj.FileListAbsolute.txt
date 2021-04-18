@@ -1,0 +1,16 @@
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\bin\Debug\net5.0\AutoKonfigurieren.exe
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\bin\Debug\net5.0\AutoKonfigurieren.deps.json
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\bin\Debug\net5.0\AutoKonfigurieren.runtimeconfig.json
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\bin\Debug\net5.0\AutoKonfigurieren.runtimeconfig.dev.json
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\bin\Debug\net5.0\AutoKonfigurieren.dll
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\bin\Debug\net5.0\ref\AutoKonfigurieren.dll
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\bin\Debug\net5.0\AutoKonfigurieren.pdb
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.csprojAssemblyReference.cache
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.AssemblyInfoInputs.cache
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.AssemblyInfo.cs
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.csproj.CoreCompileInputs.cache
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.dll
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\ref\AutoKonfigurieren.dll
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.pdb
+C:\Users\Maximilian\OneDrive\projects\auto-config\AutoKonfigurieren\AutoKonfigurieren\obj\Debug\net5.0\AutoKonfigurieren.genruntimeconfig.cache
