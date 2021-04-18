@@ -9,17 +9,30 @@ namespace AutoKonfigurieren
         static void Main(string[] args)
         {
 
-            Car c1 = new Car();
-            c1.Brand = "BMW";
-            c1.HorsePower = 218;
-            c1.FuelType = Car.FUELTYPE.DIESEL;
+            Car car = new Car();
+            string brand = "";
+            string gas = "";
+            int horsePower = 0;
+            string color = "";   
+            
+            car.BrandSelectionMenu();
+            brand = car.BrandSelection(brand);
+            gas = car.TypeSelection(gas);
+            horsePower = car.PsSelection(horsePower);
+            color = car.ColorSelection(color);
 
+            SaveToFile(brand, gas, horsePower, color); //SAVE TO FILE
+            
+        }
+        //FUNCTIONS
+        static void SaveToFile(string brand, string fuelType, int horsePower, string color)
+        {
             var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Config.txt");
-           //var filePath = @"C:\\Database\\maxfile.txt";
             var txt = new StringBuilder();
-            var newLine = string.Format("{0}, {1}, {2}", c1.Brand, c1.FuelType, c1.HorsePower);
+            var newLine = string.Format("{0}, {1}, {2}, {3}", brand, fuelType, horsePower, color);
             txt.AppendLine(newLine);
             File.AppendAllText(filePath, txt.ToString());
+            Console.WriteLine("Saved to File Config.txt in My Documents");
         }
     }
 }
