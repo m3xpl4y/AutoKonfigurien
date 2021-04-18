@@ -1,18 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AutoKonfigurieren
+﻿namespace AutoKonfigurieren
 {
     class Car
     {
-        private string Brand;
+        private string brand;
         private int horesePower;
         private int price;
-        private enum FUELTYPE { DIESEL, GAS}
+        public enum FUELTYPE { DIESEL, GAS}
 
+        public Car()
+        {
+        }
+        public string Brand
+        {
+            get
+            {
+                return brand;
+            }
+            set
+            {
+                brand = value;
+            }
+        }
+        public int HorsePower
+        {
+            get
+            {
+                return horesePower;
+            }
+            set
+            {
+                horesePower = value;
+            }
+        }
+        public FUELTYPE FuelType { get; set; }
 
     }
 }
