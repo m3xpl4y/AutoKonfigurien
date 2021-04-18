@@ -16,10 +16,6 @@ namespace AutoKonfigurieren
             string color = "";   
             
             car.BrandSelectionMenu();
-
-            string diesel = Car.FUELTYPE.DIESEL.ToString();
-            Console.WriteLine(diesel);
-
             brand = car.BrandSelection(brand);
             car.TypeSelectionMenu();
             gas = car.TypeSelection(gas);
@@ -31,14 +27,14 @@ namespace AutoKonfigurieren
             int psPrice = PriceCalc.PsPrice(horsePower);
             int colorPrice = PriceCalc.ColorPrice(color);
 
-            double endPrice = brandPrice + fuelPrice + psPrice + colorPrice;
+            int endPrice = brandPrice + fuelPrice + psPrice + colorPrice;
 
 
             SaveToFile(brand, gas, horsePower, color, endPrice); //SAVE TO FILE
             
         }
         //FUNCTIONS
-        static void SaveToFile(string brand, string fuelType, int horsePower, string color, double endPrice)
+        static void SaveToFile(string brand, string fuelType, int horsePower, string color, int endPrice)
         {
             var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Config.txt");
             var txt = new StringBuilder();
