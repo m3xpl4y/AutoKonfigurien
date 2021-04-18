@@ -8,7 +8,7 @@ namespace AutoKonfigurieren
     {
         static void Main(string[] args)
         {
-
+            
             Car car = new Car();
             string brand = "";
             string gas = "";
@@ -16,20 +16,33 @@ namespace AutoKonfigurieren
             string color = "";   
             
             car.BrandSelectionMenu();
+
+            string diesel = Car.FUELTYPE.DIESEL.ToString();
+            Console.WriteLine(diesel);
+
             brand = car.BrandSelection(brand);
+            car.TypeSelectionMenu();
             gas = car.TypeSelection(gas);
             horsePower = car.PsSelection(horsePower);
             color = car.ColorSelection(color);
 
-            SaveToFile(brand, gas, horsePower, color); //SAVE TO FILE
+            int brandPrice = PriceCalc.BrandPrice(brand);
+            int fuelPrice = PriceCalc.FuelPrice(gas);
+            int psPrice = PriceCalc.PsPrice(horsePower);
+            int colorPrice = PriceCalc.ColorPrice(color);
+
+            double endPrice = brandPrice + fuelPrice + psPrice + colorPrice;
+
+
+            SaveToFile(brand, gas, horsePower, color, endPrice); //SAVE TO FILE
             
         }
         //FUNCTIONS
-        static void SaveToFile(string brand, string fuelType, int horsePower, string color)
+        static void SaveToFile(string brand, string fuelType, int horsePower, string color, double endPrice)
         {
             var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Config.txt");
             var txt = new StringBuilder();
-            var newLine = string.Format("{0}, {1}, {2}, {3}", brand, fuelType, horsePower, color);
+            var newLine = string.Format("{0}, {1}, {2}, {3}, {4}", brand, fuelType, horsePower + "PS", color, endPrice + "€");
             txt.AppendLine(newLine);
             File.AppendAllText(filePath, txt.ToString());
             Console.WriteLine("Saved to File Config.txt in My Documents");

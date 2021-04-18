@@ -9,7 +9,7 @@ namespace AutoKonfigurieren
         private List<string> color = new List<string>();
         private List<string> horesePower = new List<string>();
         public enum FUELTYPE { DIESEL, BENZIN}
-        private int price = 50000;
+        static public int price = 50000;
 
         //CONSTRUCTOR
         public Car()
@@ -78,13 +78,17 @@ namespace AutoKonfigurieren
             }
             return c;
         }
-        public string TypeSelection(string gas)
+        public void TypeSelectionMenu()
         {
             Console.WriteLine("Wählen Sie aus folgenden Möglichkeiten: mit 1 oder 2");
             foreach (FUELTYPE i in (FUELTYPE[])Enum.GetValues(typeof(FUELTYPE)))
             {
                 Console.WriteLine(i);
             }
+        }
+        public string TypeSelection(string gas)
+        {
+
             int mySelection = Convert.ToInt32(Console.ReadLine());
             switch (mySelection)
             {
