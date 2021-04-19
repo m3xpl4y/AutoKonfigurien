@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maximilian\\OneDrive\\projects\\auto-config\\AutoKonfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj": {}
+    "C:\\Users\\DCV\\Documents\\projekte_c_sharp\\auto_konfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maximilian\\OneDrive\\projects\\auto-config\\AutoKonfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj": {
+    "C:\\Users\\DCV\\Documents\\projekte_c_sharp\\auto_konfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maximilian\\OneDrive\\projects\\auto-config\\AutoKonfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj",
+        "projectUniqueName": "C:\\Users\\DCV\\Documents\\projekte_c_sharp\\auto_konfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj",
         "projectName": "AutoKonfigurieren",
-        "projectPath": "C:\\Users\\Maximilian\\OneDrive\\projects\\auto-config\\AutoKonfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj",
-        "packagesPath": "C:\\Users\\Maximilian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maximilian\\OneDrive\\projects\\auto-config\\AutoKonfigurieren\\AutoKonfigurieren\\obj\\",
+        "projectPath": "C:\\Users\\DCV\\Documents\\projekte_c_sharp\\auto_konfigurieren\\AutoKonfigurieren\\AutoKonfigurieren.csproj",
+        "packagesPath": "C:\\Users\\DCV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DCV\\Documents\\projekte_c_sharp\\auto_konfigurieren\\AutoKonfigurieren\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Maximilian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\DCV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

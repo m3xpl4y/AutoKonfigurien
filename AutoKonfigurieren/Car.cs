@@ -9,7 +9,7 @@ namespace AutoKonfigurieren
         private List<string> color = new List<string>();
         private List<string> horesePower = new List<string>();
         public enum FUELTYPE { DIESEL, BENZIN}
-        static public int price = 50000;
+        public  const int BASE_PRICE = 50000;
 
         //CONSTRUCTOR
         public Car()
@@ -32,11 +32,7 @@ namespace AutoKonfigurieren
             get { return color; }
             set { color = value; }
         }
-        public int Price
-        {
-            get { return price;  }
-            set { price = value; }
-        }
+       
 
         public void BrandSelectionMenu()
         {

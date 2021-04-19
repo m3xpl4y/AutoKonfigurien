@@ -3,12 +3,12 @@
     public class PriceCalc
     {
         
-        private static int endPrice = Car.price;
+        private static int endPrice = Car.BASE_PRICE;
         public static int BrandPrice(string brand)
         {   
             Car car = new Car();
 
-            endPrice = car.Price;
+            endPrice = Car.BASE_PRICE;
 
             if(brand == "BMW" || brand == "Audi")
             {
